@@ -15,7 +15,7 @@ testing_models=(
 	)
 
 total_cores=128
-root_dir="$(pwd)/TurinC-128C"
+root_dir="$(pwd)/results/TurinC-128C"
 in_out_length=("128/128" "128/1024" "1024/128" "1024/1024")
 batch_size="1,1,1,2,4,8,16,32"
 file_name_prefix="110525-TurinC"
