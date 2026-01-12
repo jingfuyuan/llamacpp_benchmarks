@@ -4,7 +4,7 @@ This package provides scripts to benchmark LLM inference performance on CPU usin
 
 ## Features
 
-- **Single socket benchmarking** (requires modification for dual socket systems)
+- **Single socket benchmarking** (requires modification for dual socket systems). For dual socket performance, it is advisable to extrapolate from single sokcet performance, because there is no communication between instances.
 - **Multi-instance support** - run multiple inference instances in parallel
 - **Batch size sweeping** - test various batch sizes in a single run
 - **Automated result extraction** - parse log files into CSV summaries with statistics
